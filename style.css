@@ -295,10 +295,11 @@ li {
     height: 80px;
 /*    background: #292f36;
 */    postion: fixed;
+
 }
 
-#nav-link:hover, #nav-link:focus, #nav-link:active {
-    color: #6e695c;
+#nav-link:hover, #nav-link:focus, #nav-link:active {  
+    color: #8f1733;
     text-decoration: none;
 }
 #nav-link {
@@ -316,7 +317,7 @@ li {
     font-weight: 400;
     text-transform: uppercase;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
-    color: #A9A9A9;
+    color: #6e6d6d;
 }
 #nav-link::before {
     content: '';
@@ -326,7 +327,7 @@ li {
     left: 0;
     height: 2px;
     width: 100%;
-    background-color: #6e695c;
+    background-color: #8f1733;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s,transform 0.2s ease-out;
