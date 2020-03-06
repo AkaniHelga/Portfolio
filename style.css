@@ -383,7 +383,7 @@ li.bio::before{
 }
 .footer
 {
-    height: 50px;
+    height: 80px;
     background-color: black;
     /*position: fixed;*/
     left: 0;
