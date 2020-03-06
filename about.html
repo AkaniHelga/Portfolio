@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<title>About, Akani Helga</title>	
-</head>
+  <title>About | Akani Helga</title>
+  <style type="text/css">
+    .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    #splash_screen {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(image/spinner.svg) center no-repeat #fff;
+    background-color: #fff;
+  }
+  </style>	
+  </head>
 
 <body>
 <!-- splashscreen -->
 <!-- css styling -->
-<style type="text/css">
-  .no-js #loader { display: none;  }
-  .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-  #splash_screen {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(image/spinner.svg) center no-repeat #fff;
-  background-color: #fff;
-}
-</style>
+
 
 <div id="splash_screen"></div>
 
@@ -45,30 +47,103 @@
   // $("#splash_screen").fadeOut("slow");;
   $("#splash_screen").addClass("animated slideOutUp");
 });
-</script> 
+</script>
+<!-- end of splash screen -->
 
-<header style="height: 250px; background-color:  #fff;">
-<!--navbar-->
-<!--letter as a logo-->
-<nav class="nav navbar-default navbar-inverse navbar-bg-dark navbar-sticky-top justify-content-end">
-	<a class="logo" class="nav-item" id="nav-link" href="index.html">
-    <div style="margin-left: -700px; font-size: 25px; padding: 10px;">N</div>
-  </a>
-	<ul>
-      <li class="nav-item"><a id="nav-link" href="index.html">Home</a></li>
-      <li class="nav-item"><a id="nav-link" href="portfolio.html">Portfolio</a></li>
-      <li class="nav-item"><a id="nav-link" href="services.html">Services</a></li>
-      <li class="nav-item"><a id="nav-link" href="events.html">Events</a></li>
-      <li class="nav-item"><a id="nav-link" href="about.html">About</a></li>
-      <li class="nav-item"><a id="nav-link" href="contact.html">Contact</a></li>
-    </ul>
-</nav> 
 
+<header style="  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), 
+                url('image/mountain.jpg') no-repeat fixed center; height: 450px; background-color:  #fff;">
+ 
+  <nav class="nav navbar-default navbar-bg-dark navbar-sticky-top justify-content-between">
+    <!-- letter as a logo -->
+      <a class="logo pull-left" class="nav-item" href="index.html">
+        <img class="img-fluid rounded-circle" width="100" height="100" src="image/avatar.png" style="padding: 20px; margin-top: 10px;"  alt="">
+      </a>
+  	
+    <ul>
+        <li class="nav-item"><a id="nav-link" href="index.html">Portfolio</a></li>
+        <li class="nav-item"><a id="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a id="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+  </nav> 
 </header>
 
+<div class="container" >
+	<br >
+</div>
 
-<h2 style="text-align:center; color: #000; margin-top: -100px; opacity: .5;">About</h2>
-<hr id="startchange" style="transform: rotate(90deg); width: 130px; height: 200px; border-top: 2px solid #8f1733; margin-left: 515px; margin-top: -20px;">
+
+<div class="container text-center" >
+	<div class="row">
+		<div class="col-4"></div>
+		<div class="col-4">
+			<h2 style=" color: #000; font-family: 'Caveat', sans-serif; margin-top: -70px; " id="startchange">ABOUT ME</h2>
+		</div>
+		<div class="col-4"></div>
+	</div>
+</div>
+
+
+
+<div class="container"  data-aos= "fade-up" data-aos-delay="1000" style="background: ;  margin-top: -50px; opacity: .9;">
+	<div class="row">
+		<div class="column">
+			<div class="text-center">
+				<p style="font-size: 23px; padding: 60px; opacity: .7;"> Hello! 
+					I am a budding programmer with a background in human nutrition. I am a strong-willed, opinionated, and compassionate millenial with a deep interest for travel, art, literature, and design. My eye for detail is one of my strong traits.  I enjoy building solutions that particularly leave a mark. One last thing,  I take cool photos, sometimes. 
+					
+					<br><br><br>
+
+					This portfolio is just a slight peek into who I am. <br>
+
+					<hr style="width: 200px; height: 20px; border-top: 2px solid #A9A9A9; padding: 20px; margin-top: 30px;">
+
+					NOTSOCHUNKYMUNKY
+
+				 </p>
+			</div>
+		</div>
+	</div>		
+</div>
+
+
+<div class="footer">
+  <div class="container justify-content-between">
+    <div class="row">
+      <div class="col-4 text-left small text-secondary" >
+        STALK ME
+        <!--Bitbucket-->
+        <a href="">
+          <i class="fa fa-instagram" style="color: #A9A9A9; font-size: 20px; padding: 15px;"></i>
+        </a>
+        
+        <!--Twitter-->
+        <a href="https://twitter.com/AkaniHelga">
+          <i class="fa fa-twitter" style="color: #A9A9A9; font-size: 20px; padding: 15px;"></i>     
+        </a>
+        
+        <!--Github-->
+        <a href="https://github.com/AkaniHelga">
+          <i class="fa fa-github" style="color: #A9A9A9; font-size: 20px; padding: 15px; "></i>
+        </a>
+        
+        <!--Linked In-->
+        <a href="https://linkedin.com/in/helga-akani-429a98a9/">
+          <i class="fa fa-linkedin" style="color: #A9A9A9; font-size: 20px; padding: 15px;"></i>
+        </a>
+      </div>
+
+      <div class="col-4"></div>
+
+      
+      <div class="col-4">
+        <h6 class=" text-right small text-secondary" style="padding: 15px;"> NOTSOCHUNKYMUNKY ©2020 </h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <script>
     $(document).ready(function(){       
      var scroll_start = 0;
@@ -78,111 +153,18 @@
      $(document).scroll(function() { 
         scroll_start = $(this).scrollTop();
         if(scroll_start > offset.top) {
-            $(".navbar-default").css('background-color', '#fff');
+            $(".navbar-default").css('background-color', '#000');
          } else {
             $('.navbar-default').css('background-color', 'transparent');
          }
      });
       }
       AOS.init({
-      	easing: 'ease',
-      	duration: 2600,
-      	once: true
+        easing: 'ease',
+        duration: 2600,
+        once: true
       });
   });
   </script>
-
-<div class="container"  data-aos= "fade-down" data-aos-delay="1000" style="background: black; margin-left: 50px; opacity: .9;">
-	<div class="row">
-		<div class="col-6">
-			<div class="text-right">
-			<p style="font-size: 25px; margin-top: 230px; margin-left: 100px; color: #A9A9A9;"> I am a strong-willed, opinionate, compassionate millenial with a deep interest for travel, art, literature and programming. I enjoy building solutions that particularly leave a mark. </p>
-
-			<hr style="width: 200px; height: 20px; border-top: 2px solid #A9A9A9; margin-left: 500px; margin-top: 30px;">
-			<p style="font-size: 15px; margin-top: -20px; margin-left: 100px; color: #A9A9A9;">NOTSOCHUNKYMUNKY</p>
-			</div>
-		</div>
-		<div class="col-6" style="background: black;">
-			<img class="img-fluid" data-aos= "fade-left" data-aos-delay="1000" src="image/Akani_Helga.jpg" alt="Me" style="margin-left: 120px; margin-top: 70px;">
-		</div>
-	</div>		
-</div>
-
-
-
-<div class="container">
-	<div class="row">
-		<div class="column" style="margin-left: 500px; margin-top: 100px;">
-			<svg width="10" height="10">
-				<rect width="300" height="100" style="fill: #8f1733; stroke-width:3; stroke: #8f1733;"/>  
-			</svg>
-
-			<p style="font-size: 25px; text-align: center; margin-top: -30px; margin-left: 25px;">
-				Want to work with me?
-			</p>
-
-			<br>
-		</div>
-	</div>
-</div>
-
-<div class="container" style="margin-top: -180px; ">
-	<div class="row">
-		<div class="col-4"></div>
-		<div class="col-4">
-			<div class="buttons">
-		        <a href="mailto:helga.akani@gmail.com" class="btn btn-1" id="butt">
-		          <svg id="but">
-		            <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-		            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">EMAIL ME</text> 
-		          </svg>
-		        </a>
-		    </div>	
-		</div>
-		<div class="col-4"></div>
-	</div>
-</div>
-<br><br><br>
-<hr>
-
-<!-- <div class="container-fluid">
-	<a class="logo" id="nav-link" href="index.html">
-  		<div style="font-size: 25px; padding: 15px; margin-left: 20px; color: #A9A9A9; text-align: center;">N</div>
-	</a>
-</div> -->
-
-<div class="container" style="margin-top: 80px;">
-	<div class="row">
-		<div class="col-5">
-			
-			<!--Bitbucket-->
-			<a href="">
-				<i class="fa fa-bitbucket" style="color: #A9A9A9; font-size: 20px; padding: 10px;"></i>
-			</a>
-			
-			<!--Twitter-->
-			<a href="https://twitter.com/AkaniHelga">
-				<i class="fa fa-twitter" style="color: #A9A9A9; font-size: 20px; padding: 10px;"></i>			
-			</a>
-			
-			<!--Github-->
-			<a href="https://github.com/AkaniHelga">
-				<i class="fa fa-github" style="color: #A9A9A9; font-size: 20px; padding: 10px; "></i>
-			</a>
-			
-			<!--Linked In-->
-			<a href="https://linkedin.com/in/helga-akani-429a98a9/">
-				<i class="fa fa-linkedin" style="color: #A9A9A9; font-size: 20px; padding: 10px;"></i>
-			</a>
-
-		</div>
-
-		<div class="col-5">
-			<div class="footer-copyright text-center text-white text-secondary">©2019 Copyright -notsochunkymunky</div>		
-		</div>	
-		<div class="col-2"></div>
-	</div>	
-</div>
-
 </body>
 </html>
